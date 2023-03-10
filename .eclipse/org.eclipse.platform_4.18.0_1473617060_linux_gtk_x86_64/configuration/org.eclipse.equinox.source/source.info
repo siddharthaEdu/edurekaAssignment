@@ -1,0 +1,6 @@
+#encoding=UTF-8
+#version=1
+com.beust.jcommander.source,1.78.0,../../home/edureka/.eclipse/org.eclipse.platform_4.18.0_1473617060_linux_gtk_x86_64/plugins/com.beust.jcommander.source_1.78.0.jar,-1,false
+org.apache-extras.beanshell.bsh.source,2.0.0.b6,../../home/edureka/.eclipse/org.eclipse.platform_4.18.0_1473617060_linux_gtk_x86_64/plugins/org.apache-extras.beanshell.bsh.source_2.0.0.b6.jar,-1,false
+org.testng.source,7.3.0.r202008060316,../../home/edureka/.eclipse/org.eclipse.platform_4.18.0_1473617060_linux_gtk_x86_64/plugins/org.testng.source_7.3.0.r202008060316.jar,-1,false
+org.yaml.snakeyaml.source,1.21.0,../../home/edureka/.eclipse/org.eclipse.platform_4.18.0_1473617060_linux_gtk_x86_64/plugins/org.yaml.snakeyaml.source_1.21.0.jar,-1,false

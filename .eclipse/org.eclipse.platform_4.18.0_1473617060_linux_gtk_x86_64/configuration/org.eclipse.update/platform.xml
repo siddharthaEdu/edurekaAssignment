@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1616413446654" transient="false" shared_ur="file:configuration/org.eclipse.update/platform.xml" version="3.0">
+	<site updateable="true" url="file:/home/edureka/.eclipse/org.eclipse.platform_4.18.0_1473617060_linux_gtk_x86_64/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.testng.p2.feature" version="7.3.0.r202008060316" url="features/org.testng.p2.feature_7.3.0.r202008060316/">
+		</feature>
+		<feature id="org.testng.eclipse.maven.feature" version="7.3.0.202008060412" url="features/org.testng.eclipse.maven.feature_7.3.0.202008060412/">
+		</feature>
+		<feature id="org.testng.eclipse" version="7.3.0.202008060412" url="features/org.testng.eclipse_7.3.0.202008060412/">
+		</feature>
+	</site>
+</config>

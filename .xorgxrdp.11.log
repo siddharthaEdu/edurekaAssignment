@@ -1,0 +1,609 @@
+[   577.398] 
+X.Org X Server 1.19.6
+Release Date: 2017-12-20
+[   577.398] X Protocol Version 11, Revision 0
+[   577.398] Build Operating System: Linux 4.15.0-115-generic x86_64 Ubuntu
+[   577.398] Current Operating System: Linux ip-172-31-21-178 4.15.0-1021-aws #21-Ubuntu SMP Tue Aug 28 10:23:07 UTC 2018 x86_64
+[   577.398] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.15.0-1021-aws root=UUID=bbf64c6d-bc15-4ae0-aa4c-608fd9820d95 ro console=tty1 console=ttyS0 nvme.io_timeout=4294967295
+[   577.398] Build Date: 04 September 2020  03:34:39PM
+[   577.398] xorg-server 2:1.19.6-1ubuntu4.6 (For technical support please see http://www.ubuntu.com/support) 
+[   577.398] Current version of pixman: 0.34.0
+[   577.398] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   577.398] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   577.398] (++) Log file: ".xorgxrdp.11.log", Time: Mon Mar 22 09:14:32 2021
+[   577.401] (++) Using config file: "/etc/X11/xrdp/xorg.conf"
+[   577.401] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   577.466] (==) ServerLayout "X11 Server"
+[   577.466] (**) |-->Screen "Screen (xrdpdev)" (0)
+[   577.466] (**) |   |-->Monitor "Monitor"
+[   577.467] (**) |   |-->Device "Video Card (xrdpdev)"
+[   577.467] (**) |-->Input Device "xrdpMouse"
+[   577.467] (**) |-->Input Device "xrdpKeyboard"
+[   577.467] (**) Option "DontVTSwitch" "on"
+[   577.467] (**) Option "AutoAddDevices" "off"
+[   577.467] (**) Not automatically adding devices
+[   577.467] (==) Automatically enabling devices
+[   577.467] (==) Automatically adding GPU devices
+[   577.467] (==) Automatically binding GPU devices
+[   577.467] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   577.467] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   577.467] 	Entry deleted from font path.
+[   577.467] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[   577.467] 	Entry deleted from font path.
+[   577.467] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[   577.467] 	Entry deleted from font path.
+[   577.467] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[   577.467] 	Entry deleted from font path.
+[   577.467] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[   577.467] 	Entry deleted from font path.
+[   577.467] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[   577.467] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   577.468] (II) Loader magic: 0x56455d961020
+[   577.468] (II) Module ABI versions:
+[   577.468] 	X.Org ANSI C Emulation: 0.4
+[   577.468] 	X.Org Video Driver: 23.0
+[   577.468] 	X.Org XInput driver : 24.1
+[   577.468] 	X.Org Server Extension : 10.0
+[   577.471] (II) systemd-logind: took control of session /org/freedesktop/login1/session/c2
+[   577.474] (--) PCI:*(0:0:3:0) 1d0f:1111:0000:0000 rev 0, Mem @ 0xfe400000/4194304, BIOS @ 0x????????/131072
+[   577.475] (II) "glx" will be loaded. This was enabled by default and also specified in the config file.
+[   577.475] (II) LoadModule: "dbe"
+[   577.475] (II) Module "dbe" already built-in
+[   577.475] (II) LoadModule: "ddc"
+[   577.475] (II) Module "ddc" already built-in
+[   577.475] (II) LoadModule: "extmod"
+[   577.475] (II) Module "extmod" already built-in
+[   577.475] (II) LoadModule: "glx"
+[   577.477] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   577.862] (II) Module glx: vendor="X.Org Foundation"
+[   577.862] 	compiled for 1.19.6, module version = 1.0.0
+[   577.862] 	ABI class: X.Org Server Extension, version 10.0
+[   577.862] (II) LoadModule: "int10"
+[   577.862] (II) Loading /usr/lib/xorg/modules/libint10.so
+[   577.939] (II) Module int10: vendor="X.Org Foundation"
+[   577.939] 	compiled for 1.19.6, module version = 1.0.0
+[   577.939] 	ABI class: X.Org Video Driver, version 23.0
+[   577.939] (II) LoadModule: "record"
+[   577.939] (II) Module "record" already built-in
+[   577.939] (II) LoadModule: "vbe"
+[   577.939] (II) Loading /usr/lib/xorg/modules/libvbe.so
+[   577.941] (II) Module vbe: vendor="X.Org Foundation"
+[   577.941] 	compiled for 1.19.6, module version = 1.1.0
+[   577.941] 	ABI class: X.Org Video Driver, version 23.0
+[   577.941] (II) LoadModule: "xorgxrdp"
+[   577.941] (II) Loading /usr/lib/xorg/modules/libxorgxrdp.so
+[   578.045] (II) Module XORGXRDP: vendor="X.Org Foundation"
+[   578.045] 	compiled for 1.19.6, module version = 1.0.0
+[   578.045] 	ABI class: X.Org Video Driver, version 23.0
+[   578.045] xorgxrdpSetup:
+[   578.045] (II) LoadModule: "fb"
+[   578.045] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   578.049] (II) Module fb: vendor="X.Org Foundation"
+[   578.049] 	compiled for 1.19.6, module version = 1.0.0
+[   578.049] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   578.049] (II) LoadModule: "xrdpdev"
+[   578.049] (II) Loading /usr/lib/xorg/modules/drivers/xrdpdev_drv.so
+[   578.050] (II) Module XRDPDEV: vendor="X.Org Foundation"
+[   578.050] 	compiled for 1.19.6, module version = 1.0.0
+[   578.050] 	ABI class: X.Org Video Driver, version 23.0
+[   578.051] xrdpdevSetup:
+[   578.051] (II) LoadModule: "xrdpmouse"
+[   578.051] (II) Loading /usr/lib/xorg/modules/input/xrdpmouse_drv.so
+[   578.052] (II) Module XRDPMOUSE: vendor="X.Org Foundation"
+[   578.052] 	compiled for 1.19.6, module version = 1.0.0
+[   578.052] 	Module class: X.Org XInput Driver
+[   578.052] 	ABI class: X.Org XInput driver, version 24.1
+[   578.052] rdpmousePlug:
+[   578.052] (II) LoadModule: "xrdpkeyb"
+[   578.052] (II) Loading /usr/lib/xorg/modules/input/xrdpkeyb_drv.so
+[   578.053] (II) Module XRDPKEYB: vendor="X.Org Foundation"
+[   578.053] 	compiled for 1.19.6, module version = 1.0.0
+[   578.053] 	Module class: X.Org XInput Driver
+[   578.053] 	ABI class: X.Org XInput driver, version 24.1
+[   578.053] rdpkeybPlug:
+[   578.053] rdpIdentify:
+[   578.053] (II) XRDPDEV: driver for xrdp: XRDPDEV
+[   578.053] rdpDriverFunc: op 10
+[   578.053] (WW) Falling back to old probe method for XRDPDEV
+[   578.053] rdpProbe:
+[   578.053] (II) Loading sub module "fb"
+[   578.053] (II) LoadModule: "fb"
+[   578.053] (II) Loading /usr/lib/xorg/modules/libfb.so
+[   578.053] (II) Module fb: vendor="X.Org Foundation"
+[   578.053] 	compiled for 1.19.6, module version = 1.0.0
+[   578.053] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   578.053] (II) XRDPDEV(0): using default device
+[   578.053] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   578.053] rdpPreInit:
+[   578.053] (**) XRDPDEV(0): Depth 24, (--) framebuffer bpp 32
+[   578.053] (==) XRDPDEV(0): RGB weight 888
+[   578.053] (==) XRDPDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[   578.053] (==) XRDPDEV(0): Default visual is TrueColor
+[   578.053] (==) XRDPDEV(0): DPI set to (96, 96)
+[   578.053] (II) XRDPDEV(0): 	mode "640x480" ok
+[   578.053] (II) XRDPDEV(0): 	mode "800x600" ok
+[   578.053] (--) XRDPDEV(0): Virtual size is 800x600 (pitch 800)
+[   578.053] (**) XRDPDEV(0):  Default mode "800x600": 36.0 MHz (scaled from 0.0 MHz), 35.2 kHz, 56.2 Hz
+[   578.053] (II) XRDPDEV(0): Modeline "800x600"x0.0   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz d)
+[   578.053] (==) Depth 24 pixmap format is 32 bpp
+[   578.054] rdpScreenInit: virtualX 800 virtualY 600 rgbBits 8 depth 24
+[   578.054] rdpScreenInit: pfbMemory bytes 1920000
+[   578.054] rdpScreenInit: pfbMemory 0x7fae500f3010
+[   578.055] rdpSimdInit: assigning yuv functions
+[   578.055] rdpSimdInit: cpuid ax 1 cx 0 return ax 0x00800f12 bx 0x00040800 cx 0xfed83203 dx 0x178bfbff
+[   578.055] rdpSimdInit: sse2 amd64 yuv functions assigned
+[   578.055] rdpXvInit: depth 24
+[   578.056] (==) XRDPDEV(0): Backing store enabled
+[   578.057] rdpClientConInit: kill disconnected [0] timeout [0] sec
+[   578.057] 
+[   578.057] rdpScreenInit: out
+[   578.058] (==) RandR enabled
+[   578.063] (II) SELinux: Disabled on system
+[   578.064] (II) AIGLX: Screen 0 is not DRI2 capable
+[   578.064] (EE) AIGLX: reverting to software rendering
+[   582.431] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[   582.432] (II) IGLX: Loaded and initialized swrast
+[   582.432] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[   582.982] (II) Using input driver 'XRDPMOUSE' for 'xrdpMouse'
+[   582.982] (**) Option "CorePointer"
+[   582.982] (**) xrdpMouse: always reports core events
+[   582.982] rdpmousePreInit: drv 0x56455dfb5ea0 info 0x56455e11d300, flags 0x0
+[   582.982] (II) XINPUT: Adding extended input device "xrdpMouse" (type: Mouse, id 6)
+[   582.982] rdpmouseControl: what 0
+[   582.982] rdpmouseDeviceInit:
+[   582.982] rdpmouseCtrl:
+[   582.982] rdpRegisterInputCallback: type 1 proc 0x7fae504ccc60
+[   582.982] (**) xrdpMouse: (accel) keeping acceleration scheme 1
+[   582.982] (**) xrdpMouse: (accel) acceleration profile 0
+[   582.982] (**) xrdpMouse: (accel) acceleration factor: 2.000
+[   582.982] (**) xrdpMouse: (accel) acceleration threshold: 4
+[   582.982] rdpmouseControl: what 1
+[   582.982] rdpmouseDeviceOn:
+[   582.982] (II) Using input driver 'XRDPKEYB' for 'xrdpKeyboard'
+[   582.982] (**) Option "CoreKeyboard"
+[   582.982] (**) xrdpKeyboard: always reports core events
+[   582.982] rdpkeybPreInit: drv 0x56455dfb3900 info 0x56455e28dd20, flags 0x0
+[   582.982] (II) XINPUT: Adding extended input device "xrdpKeyboard" (type: Keyboard, id 7)
+[   582.982] rdpkeybControl: what 0
+[   582.982] rdpkeybDeviceInit:
+[   583.015] rdpkeybChangeKeyboardControl:
+[   583.016] rdpkeybChangeKeyboardControl: autoRepeat on
+[   583.016] rdpRegisterInputCallback: type 0 proc 0x7fae502c9530
+[   583.016] rdpkeybControl: what 1
+[   583.016] rdpkeybDeviceOn:
+[   583.029] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[   583.029] (II) AutoAddDevices is off - not adding device.
+[   583.029] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[   583.029] (II) AutoAddDevices is off - not adding device.
+[   583.030] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[   583.030] (II) AutoAddDevices is off - not adding device.
+[   583.038] rdpSaveScreen:
+[   583.039] rdpDeferredRandR:
+[   583.039] rdpResizeSession: width 1024 height 768
+[   583.039]   calling RRScreenSizeSet
+[   583.039] rdpRRScreenSetSize: width 1024 height 768 mmWidth 271 mmHeight 203
+[   583.039] rdpRRGetInfo:
+[   583.039]   screen resized to 1024x768
+[   583.044]   RRScreenSizeSet ok 1
+[   583.044] rdpResizeSession: width 1364 height 768
+[   583.044]   calling RRScreenSizeSet
+[   583.044] rdpRRScreenSetSize: width 1364 height 768 mmWidth 361 mmHeight 203
+[   583.044] rdpRRGetInfo:
+[   583.044]   screen resized to 1364x768
+[   583.046]   RRScreenSizeSet ok 1
+[   583.046] rdpClientConGotConnection:
+[   583.046] rdpClientConGotConnection: g_sck_accept ok new_sck 7
+[   583.046] rdpClientConGotConnection: adding only clientCon
+[   583.046] rdpClientConProcessMsgVersion: version 0 0 0 1
+[   583.046] rdpClientConProcessScreenSizeMsg: set width 1364 height 768 bpp 32
+[   583.046] rdpClientConProcessScreenSizeMsg: shmemid 0 shmemptr 0x7fae3bc01000
+[   583.046] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1364 cy 768
+[   583.046] KbdSync: toggling num lock
+[   583.046] rdpkeybChangeKeyboardControl:
+[   583.046] rdpkeybChangeKeyboardControl: autoRepeat on
+[   583.048] rdpClientConProcessMsgClientInfo:
+[   583.048]   got client info bytes 5744
+[   583.048]   jpeg support 0
+[   583.048]   offscreen support 1
+[   583.048]   offscreen size 10485760
+[   583.048]   offscreen entries 100
+[   583.048]   client can not do offscreen to offscreen blits
+[   583.048]   client can do new(color) cursor
+[   583.048]   client can not do multimon
+[   583.048] rdpRRSetRdpOutputs: numCrtcs 0 monitorCount 0
+[   583.048] rdpRRSetRdpOutputs: add output 0 left 0 top 0 width 1364 height 768
+[   583.048] rdpLoadLayout: keylayout 0x00004009 variant  display 11
+[   583.048] rdpkeybChangeKeyboardControl:
+[   583.048] rdpkeybChangeKeyboardControl: autoRepeat on
+[   583.049] rdpkeybChangeKeyboardControl:
+[   583.049] rdpkeybChangeKeyboardControl: autoRepeat on
+[   583.149] rdpInDeferredUpdateCallback:
+[   583.149] rdpkeybChangeKeyboardControl:
+[   583.149] rdpkeybChangeKeyboardControl: autoRepeat off
+[   583.149] rdpkeybChangeKeyboardControl:
+[   583.149] rdpkeybChangeKeyboardControl: autoRepeat off
+[   586.760] rdpkeybChangeKeyboardControl:
+[   586.760] rdpkeybChangeKeyboardControl: autoRepeat off
+[   586.760] rdpkeybChangeKeyboardControl:
+[   586.760] rdpkeybChangeKeyboardControl: autoRepeat on
+[   586.860] rdpInDeferredUpdateCallback:
+[   586.860] rdpkeybChangeKeyboardControl:
+[   586.860] rdpkeybChangeKeyboardControl: autoRepeat off
+[   586.860] rdpkeybChangeKeyboardControl:
+[   586.860] rdpkeybChangeKeyboardControl: autoRepeat off
+[   589.023] rdpRRGetInfo:
+[   589.452] rdpkeybChangeKeyboardControl:
+[   589.452] rdpkeybChangeKeyboardControl: autoRepeat on
+[   589.452] rdpkeybChangeKeyboardControl:
+[   589.452] rdpkeybChangeKeyboardControl: autoRepeat on
+[   589.460] rdpRRGetInfo:
+[   589.460] rdpkeybChangeKeyboardControl:
+[   589.460] rdpkeybChangeKeyboardControl: autoRepeat on
+[   589.460] rdpkeybChangeKeyboardControl:
+[   589.460] rdpkeybChangeKeyboardControl: autoRepeat on
+[   589.532] rdpkeybChangeKeyboardControl:
+[   589.532] rdpkeybChangeKeyboardControl: autoRepeat on
+[   589.532] rdpkeybChangeKeyboardControl:
+[   589.532] rdpkeybChangeKeyboardControl: autoRepeat on
+[   589.635] rdpInDeferredUpdateCallback:
+[   589.635] rdpkeybChangeKeyboardControl:
+[   589.635] rdpkeybChangeKeyboardControl: autoRepeat off
+[   589.635] rdpkeybChangeKeyboardControl:
+[   589.635] rdpkeybChangeKeyboardControl: autoRepeat off
+[   660.840] rdpkeybBell:
+[   660.840] rdpkeybBell:
+[   818.018] rdpkeybBell:
+[   818.018] rdpkeybBell:
+[   818.133] rdpkeybBell:
+[   818.133] rdpkeybBell:
+[   818.256] rdpkeybBell:
+[   818.256] rdpkeybBell:
+[   820.040] rdpkeybBell:
+[   820.040] rdpkeybBell:
+[   820.163] rdpkeybBell:
+[   820.163] rdpkeybBell:
+[   820.309] rdpkeybBell:
+[   820.309] rdpkeybBell:
+[   820.423] rdpkeybBell:
+[   820.423] rdpkeybBell:
+[   830.371] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[   866.843] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  1018.230] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  1234.833] rdpkeybBell:
+[  1234.833] rdpkeybBell:
+[  1352.244] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  1532.650] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  1555.666] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  1811.657] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  2167.944] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  2174.722] rdpkeybBell:
+[  2174.722] rdpkeybBell:
+[  2175.070] rdpkeybBell:
+[  2175.070] rdpkeybBell:
+[  2175.260] rdpkeybBell:
+[  2175.260] rdpkeybBell:
+[  2177.523] rdpkeybBell:
+[  2177.523] rdpkeybBell:
+[  2181.438] rdpkeybBell:
+[  2181.438] rdpkeybBell:
+[  2181.619] rdpkeybBell:
+[  2181.619] rdpkeybBell:
+[  2181.812] rdpkeybBell:
+[  2181.812] rdpkeybBell:
+[  2185.297] rdpkeybBell:
+[  2185.297] rdpkeybBell:
+[  2188.196] rdpkeybBell:
+[  2188.196] rdpkeybBell:
+[  2191.012] rdpkeybBell:
+[  2191.012] rdpkeybBell:
+[  2191.247] rdpkeybBell:
+[  2191.247] rdpkeybBell:
+[  2197.756] rdpkeybBell:
+[  2197.756] rdpkeybBell:
+[  2206.962] rdpkeybBell:
+[  2206.962] rdpkeybBell:
+[  2207.146] rdpkeybBell:
+[  2207.146] rdpkeybBell:
+[  2207.333] rdpkeybBell:
+[  2207.333] rdpkeybBell:
+[  2207.510] rdpkeybBell:
+[  2207.510] rdpkeybBell:
+[  2207.674] rdpkeybBell:
+[  2207.674] rdpkeybBell:
+[  2208.037] rdpkeybBell:
+[  2208.037] rdpkeybBell:
+[  2209.816] rdpkeybBell:
+[  2209.816] rdpkeybBell:
+[  2212.185] rdpkeybBell:
+[  2212.185] rdpkeybBell:
+[  2212.308] rdpkeybBell:
+[  2212.308] rdpkeybBell:
+[  2261.849] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  2268.411] rdpkeybBell:
+[  2268.412] rdpkeybBell:
+[  2351.589] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  2357.859] rdpkeybBell:
+[  2357.859] rdpkeybBell:
+[  2360.438] rdpkeybBell:
+[  2360.438] rdpkeybBell:
+[  2360.545] rdpkeybBell:
+[  2360.545] rdpkeybBell:
+[  2360.652] rdpkeybBell:
+[  2360.652] rdpkeybBell:
+[  2363.443] rdpkeybBell:
+[  2363.443] rdpkeybBell:
+[  2365.167] rdpkeybBell:
+[  2365.167] rdpkeybBell:
+[  2365.430] rdpkeybBell:
+[  2365.431] rdpkeybBell:
+[  2368.059] rdpkeybBell:
+[  2368.059] rdpkeybBell:
+[  2374.950] rdpkeybBell:
+[  2374.950] rdpkeybBell:
+[  2375.154] rdpkeybBell:
+[  2375.154] rdpkeybBell:
+[  2375.279] rdpkeybBell:
+[  2375.279] rdpkeybBell:
+[  2375.434] rdpkeybBell:
+[  2375.434] rdpkeybBell:
+[  2375.599] rdpkeybBell:
+[  2375.599] rdpkeybBell:
+[  2377.024] rdpkeybBell:
+[  2377.024] rdpkeybBell:
+[  2377.209] rdpkeybBell:
+[  2377.209] rdpkeybBell:
+[  2377.383] rdpkeybBell:
+[  2377.383] rdpkeybBell:
+[  2377.599] rdpkeybBell:
+[  2377.599] rdpkeybBell:
+[  2377.766] rdpkeybBell:
+[  2377.766] rdpkeybBell:
+[  2389.833] rdpkeybBell:
+[  2389.833] rdpkeybBell:
+[  2390.027] rdpkeybBell:
+[  2390.027] rdpkeybBell:
+[  2390.188] rdpkeybBell:
+[  2390.188] rdpkeybBell:
+[  2390.328] rdpkeybBell:
+[  2390.328] rdpkeybBell:
+[  2390.482] rdpkeybBell:
+[  2390.482] rdpkeybBell:
+[  2390.747] rdpkeybBell:
+[  2390.747] rdpkeybBell:
+[  2391.062] rdpkeybBell:
+[  2391.062] rdpkeybBell:
+[  2394.349] rdpkeybBell:
+[  2394.350] rdpkeybBell:
+[  2395.886] rdpkeybBell:
+[  2395.886] rdpkeybBell:
+[  2404.900] rdpkeybBell:
+[  2404.900] rdpkeybBell:
+[  2405.076] rdpkeybBell:
+[  2405.076] rdpkeybBell:
+[  2640.767] rdpkeybBell:
+[  2640.767] rdpkeybBell:
+[  2640.968] rdpkeybBell:
+[  2640.968] rdpkeybBell:
+[  2641.133] rdpkeybBell:
+[  2641.133] rdpkeybBell:
+[  2641.298] rdpkeybBell:
+[  2641.299] rdpkeybBell:
+[  2641.455] rdpkeybBell:
+[  2641.455] rdpkeybBell:
+[  2643.803] rdpkeybBell:
+[  2643.804] rdpkeybBell:
+[  2643.973] rdpkeybBell:
+[  2643.974] rdpkeybBell:
+[  2644.082] rdpkeybBell:
+[  2644.082] rdpkeybBell:
+[  2646.803] rdpkeybBell:
+[  2646.803] rdpkeybBell:
+[  2647.011] rdpkeybBell:
+[  2647.011] rdpkeybBell:
+[  2647.196] rdpkeybBell:
+[  2647.196] rdpkeybBell:
+[  2647.374] rdpkeybBell:
+[  2647.375] rdpkeybBell:
+[  2647.547] rdpkeybBell:
+[  2647.547] rdpkeybBell:
+[  2647.736] rdpkeybBell:
+[  2647.736] rdpkeybBell:
+[  2648.107] rdpkeybBell:
+[  2648.107] rdpkeybBell:
+[  2648.351] rdpkeybBell:
+[  2648.352] rdpkeybBell:
+[  2648.540] rdpkeybBell:
+[  2648.540] rdpkeybBell:
+[  2648.723] rdpkeybBell:
+[  2648.723] rdpkeybBell:
+[  2650.080] rdpkeybBell:
+[  2650.080] rdpkeybBell:
+[  2650.200] rdpkeybBell:
+[  2650.200] rdpkeybBell:
+[  2651.214] rdpkeybBell:
+[  2651.214] rdpkeybBell:
+[  2656.662] rdpkeybBell:
+[  2656.662] rdpkeybBell:
+[  2656.903] rdpkeybBell:
+[  2656.903] rdpkeybBell:
+[  2669.510] rdpkeybBell:
+[  2669.510] rdpkeybBell:
+[  2670.013] rdpkeybBell:
+[  2670.013] rdpkeybBell:
+[  2670.553] rdpkeybBell:
+[  2670.553] rdpkeybBell:
+[  2671.603] rdpkeybBell:
+[  2671.603] rdpkeybBell:
+[  2688.605] rdpkeybBell:
+[  2688.606] rdpkeybBell:
+[  2702.028] rdpkeybBell:
+[  2702.028] rdpkeybBell:
+[  2705.288] rdpkeybBell:
+[  2705.288] rdpkeybBell:
+[  2711.447] rdpkeybBell:
+[  2711.447] rdpkeybBell:
+[  2711.646] rdpkeybBell:
+[  2711.647] rdpkeybBell:
+[  2711.836] rdpkeybBell:
+[  2711.836] rdpkeybBell:
+[  2711.977] rdpkeybBell:
+[  2711.977] rdpkeybBell:
+[  2714.053] rdpkeybBell:
+[  2714.053] rdpkeybBell:
+[  2714.277] rdpkeybBell:
+[  2714.277] rdpkeybBell:
+[  2714.478] rdpkeybBell:
+[  2714.479] rdpkeybBell:
+[  2714.646] rdpkeybBell:
+[  2714.646] rdpkeybBell:
+[  2715.076] rdpkeybBell:
+[  2715.076] rdpkeybBell:
+[  2718.986] rdpkeybBell:
+[  2718.986] rdpkeybBell:
+[  2721.157] rdpkeybBell:
+[  2721.157] rdpkeybBell:
+[  2721.385] rdpkeybBell:
+[  2721.385] rdpkeybBell:
+[  2723.738] rdpkeybBell:
+[  2723.738] rdpkeybBell:
+[  2728.967] rdpkeybBell:
+[  2728.967] rdpkeybBell:
+[  2854.206] rdpkeybBell:
+[  2854.206] rdpkeybBell:
+[  2854.416] rdpkeybBell:
+[  2854.416] rdpkeybBell:
+[  2877.200] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  2943.283] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  3966.204] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4022.394] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4044.419] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4229.304] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4417.340] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4475.853] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4516.650] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  4607.012] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  6505.181] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  6511.443] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  6536.583] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  6557.153] rdpkeybBell:
+[  6557.153] rdpkeybBell:
+[  6557.262] rdpkeybBell:
+[  6557.263] rdpkeybBell:
+[  6557.380] rdpkeybBell:
+[  6557.380] rdpkeybBell:
+[  6721.863] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  7716.180] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  7876.700] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  7893.440] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  8261.480] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  8388.380] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  8440.189] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  8908.140] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  8916.574] rdpkeybBell:
+[  8916.574] rdpkeybBell:
+[  9143.250] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  9165.998] rdpkeybBell:
+[  9165.999] rdpkeybBell:
+[  9166.649] rdpkeybBell:
+[  9166.649] rdpkeybBell:
+[  9167.399] rdpkeybBell:
+[  9167.399] rdpkeybBell:
+[  9177.027] rdpkeybBell:
+[  9177.027] rdpkeybBell:
+[  9177.433] rdpkeybBell:
+[  9177.433] rdpkeybBell:
+[  9178.799] rdpkeybBell:
+[  9178.799] rdpkeybBell:
+[  9178.831] rdpkeybBell:
+[  9178.831] rdpkeybBell:
+[  9178.831] rdpkeybBell:
+[  9178.831] rdpkeybBell:
+[  9178.919] rdpkeybBell:
+[  9178.919] rdpkeybBell:
+[  9179.109] rdpkeybBell:
+[  9179.109] rdpkeybBell:
+[  9179.119] rdpkeybBell:
+[  9179.119] rdpkeybBell:
+[  9179.499] rdpkeybBell:
+[  9179.499] rdpkeybBell:
+[  9240.667] rdpkeybBell:
+[  9240.668] rdpkeybBell:
+[  9240.689] rdpkeybBell:
+[  9240.689] rdpkeybBell:
+[  9575.764] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  9703.740] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  9722.870] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[  9797.534] rdpkeybBell:
+[  9797.535] rdpkeybBell:
+[  9829.064] rdpkeybBell:
+[  9829.064] rdpkeybBell:
+[  9831.782] rdpkeybBell:
+[  9831.782] rdpkeybBell:
+[  9831.964] rdpkeybBell:
+[  9831.964] rdpkeybBell:
+[  9832.154] rdpkeybBell:
+[  9832.154] rdpkeybBell:
+[  9832.334] rdpkeybBell:
+[  9832.334] rdpkeybBell:
+[  9832.582] rdpkeybBell:
+[  9832.582] rdpkeybBell:
+[  9832.766] rdpkeybBell:
+[  9832.766] rdpkeybBell:
+[ 10005.862] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[ 10056.968] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[ 10132.299] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[ 10170.689] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[ 10224.460] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[ 10230.580] rdpkeybBell:
+[ 10230.580] rdpkeybBell:
+[ 10244.529] rdpkeybBell:
+[ 10244.529] rdpkeybBell:
+[ 10244.771] rdpkeybBell:
+[ 10244.771] rdpkeybBell:
+[ 10252.485] rdpkeybBell:
+[ 10252.485] rdpkeybBell:
+[ 10253.015] rdpkeybBell:
+[ 10253.015] rdpkeybBell:
+[ 10255.511] rdpkeybBell:
+[ 10255.511] rdpkeybBell:
+[ 10260.610] rdpkeybBell:
+[ 10260.610] rdpkeybBell:
+[ 10261.421] rdpkeybBell:
+[ 10261.421] rdpkeybBell:
+[ 10327.718] rdpkeybBell:
+[ 10327.718] rdpkeybBell:
+[ 10328.255] rdpkeybBell:
+[ 10328.255] rdpkeybBell:
+[ 10328.762] rdpkeybBell:
+[ 10328.762] rdpkeybBell:
+[ 10330.659] rdpkeybBell:
+[ 10330.659] rdpkeybBell:
+[ 10471.907] rdpClientConProcessMsgClientInput: invalidate x 0 y 0 cx 1363 cy 767
+[ 10718.860] rdpkeybBell:
+[ 10718.860] rdpkeybBell:
+[ 10957.769] rdpmouseControl: what 2
+[ 10957.769] rdpmouseDeviceOff:
+[ 10957.769] rdpkeybControl: what 2
+[ 10957.769] rdpkeybDeviceOff:
+[ 10957.774] rdpkeybControl: what 3
+[ 10957.774] rdpkeybUnInit: drv 0x56455dfb3900 info 0x56455e28dd20, flags 0x0
+[ 10957.774] rdpUnregisterInputCallback: proc 0x7fae502c9530
+[ 10957.774] rdpmouseControl: what 3
+[ 10957.774] rdpmouseUnInit: drv 0x56455dfb5ea0 info 0x56455e11d300, flags 0x0
+[ 10957.774] rdpUnregisterInputCallback: proc 0x7fae504ccc60
+[ 10957.780] rdpCloseScreen:
+[ 10957.780] xorgxrdpDownDown:
+[ 10957.780] xorgxrdpDownDown: 1
+[ 10957.780] rdpClientConDeinit:
+[ 10957.780] rdpClientConDeinit: disconnecting only clientCon
+[ 10957.780] rdpClientConDisconnect:
+[ 10957.780] rdpClientConDisconnect: clientCon removed from dev list
+[ 10957.780] rdpClientConDeinit: deleting file /var/run/xrdp/sockdir/xrdp_display_11
+[ 10957.780] rdpClientConDeinit: deleting file /var/run/xrdp/sockdir/xrdp_disconnect_display_11
+[ 10958.277] (II) Server terminated successfully (0). Closing log file.
